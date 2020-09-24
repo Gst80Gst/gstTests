@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import os
+import time
 
 ITER_COUNT = 5
 SCR_WIDTH = 42
@@ -41,7 +42,7 @@ def print_screen_one_iter():
         elif (_shift == -1 and _curr_pos <= 2):
             return
         _curr_pos += _shift
-
+        time.sleep(0.03)
 
 def print_cycle(iter_count):
     _iter = iter_count
