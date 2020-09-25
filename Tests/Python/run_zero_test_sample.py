@@ -7,7 +7,7 @@ ITER_COUNT = 5
 SCR_WIDTH = 42
 RUN_CHAR = "0"
 RUN_SPACE = " "
-
+SINGLE_LINE_MODE = True
 
 def print_row(position):
     _row_str = RUN_SPACE*(position - 1)\
@@ -33,6 +33,8 @@ def print_screen_one_iter():
     _shift = 1
     _curr_pos = 1
     while True:
+        if (SINGLE_LINE_MODE):
+            os.system("clear")
         #Draw next text line
         print_row(_curr_pos)
 
@@ -55,5 +57,5 @@ def print_cycle(iter_count):
                 _iter = iter_count
             else:
                 return
-            
+
 print_cycle(ITER_COUNT)
