@@ -1,3 +1,1 @@
-First line in this file.
-Second line. This is the second line in this file. And we can add some more lines.
-And one more line. #3
+Empty file.
