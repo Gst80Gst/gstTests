@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 First line - S001
 Second line - S002
+=======
+Line number 001 from M
+Line number 002 from M
+>>>>>>> 62cfd1dfae15ceaae9c6056fa4330bc788da010e
